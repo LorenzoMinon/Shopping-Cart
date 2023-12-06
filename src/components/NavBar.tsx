@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export function NavBar(){
     return(
-        <NavBarBs className= "bg-white shadow-sm mb-3">
+        <NavBarBs sticky="top" className= "bg-white shadow-sm mb-3">
             <Container>
                 <Nav className="me-auto"> {/*Pone margin del lado derecho automatico*/}
                     <Nav.Link to="/" as={NavLink}> 
